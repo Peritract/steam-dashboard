@@ -37,3 +37,7 @@ rsconnect/
 
 # Data
 *.csv
+
+# Mac
+
+.DS_Store
