@@ -1,1 +1,1 @@
-rmarkdown::run()
+rmarkdown::run('index.Rmd')
