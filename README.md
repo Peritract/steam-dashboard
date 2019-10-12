@@ -1,5 +1,5 @@
-# steam-dashboard
-A flexdashboard in R looking at Steam games
+# traffic-dashboard
+A flexdashboard/Shiny app visualising traffic stop data from Rhode Island
 
 ### Shinyapps.io hosting
 
