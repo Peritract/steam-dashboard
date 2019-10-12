@@ -1,4 +1,4 @@
-my_packages = c("flexdashboard")
+my_packages = c("flexdashboard","pandoc")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
