@@ -1,0 +1,29 @@
+body, html {
+  font-family: 'Work Sans', sans-serif;
+  --gold: #FEC500;
+  --blue: #003271;
+  --white: #FEFEFE;
+  color: var(--blue);
+}
+
+h1, h2, h3, h4, .navbar, .chart-title {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+body hr {
+  border: 0.2rem solid var(--blue);
+  margin: 10px 0;
+}
+
+.navbar {
+  background: var(--blue);
+}
+
+.navbar-brand, a {
+  color: var(--gold) !important;
+}
+
+.section .sidebar, #section-column{
+  background: var(--white);
+}
