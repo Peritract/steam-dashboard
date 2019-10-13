@@ -24,6 +24,11 @@ body hr {
   color: var(--gold) !important;
 }
 
+a:hover {
+  font-weight: 600;
+  color: var(--blue) !important;
+}
+
 .section .sidebar, #section-column{
   background: var(--white);
 }

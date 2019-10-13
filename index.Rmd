@@ -5,6 +5,7 @@ output:
     orientation: rows
     vertical-layout: fill
     css: style.css
+    favicon: octo.ico
 runtime: shiny
 ---
 
@@ -53,7 +54,7 @@ stops$drugs_related_stop <- as.logical(stops$drugs_related_stop)
 levels(stops$violation) <- ordered(levels(stops$violation))
 ```
 
-Column {.sidebar data-width=250}
+Column {.sidebar data-width=260}
 -----------------------------------------------------------------------
 
 #### Summary
@@ -155,7 +156,8 @@ geom_bar(fill="#003271", width=0.5)+
 theme(axis.text.x = element_text(angle = 45, hjust=1))+
 theme_classic()+
 labs(x = "Driver age", y = "Percentage of stops")+
-scale_x_continuous(breaks=seq(min(reactive.stops()$driver_age),max(reactive.stops()$driver_age), 10))+
+scale_x_continuous(breaks=seq(min(reactive.stops()$driver_age),max(reactive.stops()$driver_age), 10),
+                   labels=seq(min(reactive.stops()$driver_age),max(reactive.stops()$driver_age), 10))+
 scale_y_continuous(labels = scales::percent_format())
 })
 ```
