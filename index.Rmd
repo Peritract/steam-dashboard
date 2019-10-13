@@ -149,6 +149,7 @@ Row {data-height=500}
 
 ```{r}
 renderPlot({
+# Plot driver age against percentage stops
 ggplot(data=reactive.stops(), aes(x=driver_age, y=..prop..))+
 geom_bar(fill="#003271", width=0.5)+
 theme(axis.text.x = element_text(angle = 45, hjust=1))+
@@ -190,7 +191,7 @@ renderPlot({
 ggplot(data=reactive.stops(), aes(x=is_arrested, y=..prop.., group=1))+
 geom_bar(fill="#003271")+
 scale_y_continuous(labels = scales::percent_format())+
-labs(x = "Arrested", y = "Percentage of stops")+
+labs(x = "Driver arrested", y = "Percentage of stops")+
 theme_classic()
 })
 ```
