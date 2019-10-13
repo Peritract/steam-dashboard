@@ -1,5 +1,5 @@
 # traffic-dashboard
-A flexdashboard/Shiny app visualising traffic stop data from Rhode Island
+A flexdashboard/Shiny app visualising traffic stop data from Rhode Island. 
 
 ### Design
 
