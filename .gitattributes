@@ -1,2 +1,5 @@
+# Stop considering .Rmd files as documentation
+*.Rmd linguist-documentation=false
+
 # Classify .Rmd files as R
 *.Rmd linguist-language=R
